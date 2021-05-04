@@ -1,9 +1,9 @@
-/* #title {
-  position: fixed;
-  width: 100vw;
-  height: 100%;
-} */
 
+#title {
+  position: fixed;
+  z-index:1;
+  width: 100%;
+}
 .nav-item {
   font-weight: bold;
 }
@@ -12,7 +12,7 @@
 }
 /* top-section */
 .top-img {
-  width: 60%;
+  w0%;
   border-radius: 50%;
 }
 #top {
@@ -56,7 +56,11 @@ h3 {
   border-left: transparent;
   border-right: transparent;
   box-shadow: #fff;
-  padding: 1% 10%;
+  /* padding: 1% 10%; */
+  margin: 20px;
+}
+.btn{
+  margin-left: -90px;
 }
 #footer {
   background: #2c3e50;
