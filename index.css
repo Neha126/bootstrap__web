@@ -1,4 +1,6 @@
-
+body,html{
+  overflow-x:hidden;
+}
 #title {
   position: fixed;
   z-index:1;
