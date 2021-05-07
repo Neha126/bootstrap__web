@@ -77,12 +77,14 @@ h3 {
 .icon {
   margin: 10px;
   cursor: pointer;
+  Width:30%;
 }
 #last {
   text-align: center;
   background: #1a252f;
   color: #fff;
   padding: 2% 10%;
+  display: none;
 }
 
 @media (max-width: 1000px) {
